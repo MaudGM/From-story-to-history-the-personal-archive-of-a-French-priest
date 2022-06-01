@@ -24,7 +24,7 @@ human-centred history where individual trajectories intersect with political and
                Religious catholic education, war prisonners, WWII, the Church establishment, history
                of mentality and Vichy France.
                
-               The whole archive in my possession is indeed only a sample of the priest's archive.
+  The whole archive in my possession is indeed only a sample of the priest's archive.
                The archive material that I rescued in 2003 from what was sent for garbage collection
                outside the Clarisse Convent, rue de Briseux, in Rennes, is only a sample collected
                at random. Indeed there were many more boxes, many of them had been already contaminated by
