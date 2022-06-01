@@ -23,6 +23,20 @@ human-centred history where individual trajectories intersect with political and
                whole offer great research potential about the following themes, but not exclusively:
                Religious catholic education, war prisonners, WWII, the Church establishment, history
                of mentality and Vichy France.
+               
+               The whole archive in my possession is indeed only a sample of the priest's archive.
+               The archive material that I rescued in 2003 from what was sent for garbage collection
+               outside the Clarisse Convent, rue de Briseux, in Rennes, is only a sample collected
+               at random. Indeed there were many more boxes, many of them had been already contaminated by
+               dog urine. I rescued what seemed the most interesting in a few minute timeframe. What
+               had originally attacted my eye was the Vichy France publications and the seminar
+               notes from the 1930s. Soon after I started going through the few boxes I had
+               collected with the aim of indexing the material, but lack of time stopped me in my
+               endeavour. In 2022, I finally got an opportunity to get back to this archive that had
+               been stored in France. A pre-selection was brought to Sweden where I started to read
+               and research the documents. For the digitization project I sampled a few, considered
+               most interesting and/or striking documents from three different periods of the
+               priest's life: the 1930s, WWII and post WWII.
 
 
 🚀[Visit the Website](https://woutdln.github.io/DCHM-template/) if you want to see what the published version of this repository looks like.
