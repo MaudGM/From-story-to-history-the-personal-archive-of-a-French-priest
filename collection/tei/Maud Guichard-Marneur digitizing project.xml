@@ -322,13 +322,34 @@
                </persName><lb/>
                <affiliation rend="indent">numéro<num corresp="#personJJ">4526</num>, Block <num
                      type="ordinal" value="3">III</num>.</affiliation><lb/>
-               <salute rend="indent">A monsieur le <w xml:lang="fr">Commandant</w> de l'<placeName xml:lang="de"
-                     >Oflag <lb/> <num type="ordinal" value="13">XIII</num> A. Unterlager A.</placeName></salute>
+               <salute rend="indent">A monsieur le <w xml:lang="fr">Commandant</w> de l'<placeName
+                     xml:lang="de">Oflag <lb/>
+                     <num type="ordinal" value="13">XIII</num> A. Unterlager A.</placeName></salute>
             </opener>
             <p><add place="margin">Objet: Perception de la <w>solde</w> d'infirmier.</add></p>
-            <p>J’ai l’honneur de solliciter de<lb/> votre bienveillance de vouloir bien payer<lb/> ma solde d’infirmier.</p>
-               <p></p>En effet, bien que reconnu comme Sanitaire par les Autorités Militaires Allemandes, je certifie n’avoir encore perçu [souligne]aucune solde d’aucune sorte [souligne] depuis que je suis prisonnier, alors que des Sanitaires, dans le même cas que le mien, perçoivent un mark par jour.
-            </p>         </div>
+            <p rend="indent">J’ai l’honneur de solliciter de<lb/> votre bienveillance de vouloir
+               bien payer<lb/> ma solde d’infirmier.</p>
+            <p rend="indent">En effet, bien que reconnu comme<lb/> Sanitaire par les <w>Autorités
+                  Militaires</w><lb/> Allemandes, je certifie n’avoir encore<lb/> perçu <emph
+                  rend="underlined">aucune solde d’aucune sorte</emph> depuis<lb/> que je suis
+               prisonnier, alors que des<lb/> Sanitaires, dans le même cas que le mien,<lb/>
+               perçoivent <num value="1">un</num><measure type="currency">mark</measure>par
+               jour.</p>
+            <p>Voici à titre documentaire, mes dif<lb/>férentes affectations, depuis le <date
+                  when="1940-06-17">17 juin 1940</date><lb/> ,date à laquelle j’ai été fait
+               prison-<lb/>nier à <placeName>Vitteaux (Côte-d’Or)</placeName>: </p>
+            <p>Affecté à l’<w>Hôpital</w> d'<placeName>
+                  <settlement>Avallon</settlement>
+               <region>(Yonne)</region></placeName>, comme infirmier à la <w>salle d’opérations</w>, du<lb/>
+               <date when="--06-17">17 juin</date> au<date when="--07-19">19 juillet</date> <date rend="bold">1940</date></p>
+               <p> Interné au camp de <placeName><settlement>Cravant <region>(Yonne)</region></settlement></placeName>, du 19
+               juillet au 22 octobre [gras]1940 [gras] Interné au camp de Saint-Florentin (Yonne),
+               Frontstalag 150, du 22 octobre au 29 octobre [gras]1940 [gras] Dirigé sur l’Allemagn
+               le 29 octobre : A Grafenwöhr, du 1er au 7 novembre [gras]1940 [gras] A Eger (A.K
+               34-31), du 7 au 27 novembre A Weiden (Stalag XIII B), du 27 novembre au 11 janvier
+               194[gras]1 A Nüruberg (Oflag XIII A, Unterlager A), à partir du 11 Janvier 1941
+               [delete], [gras]jusqu’au 23 juillet 1941.[gras] </p>
+         </div>
          <div type="prose" hand="#JJ">
             <pb facs="#DSCF8370"/>
             <opener>
