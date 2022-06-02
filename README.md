@@ -1,4 +1,4 @@
-# From story to history: The personal archive of a French priest
+# A French priest personal archive - When individual trajectories meet history: An electronic transcription
 
 This is a sample of a potentially larger digitization project that aims at creating a
 research portal where personal archives become the main point of entry for a more
