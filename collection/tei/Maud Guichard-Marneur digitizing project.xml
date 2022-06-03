@@ -44,10 +44,10 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note>The present transcription is undertaken as part of a wider digitising project
-               within the course on digitizing cultural heritage, Master in library and information
-               science, digital libraries and information services, at the University of Borås.
-            </note>
+            <note>The present transcription is undertaken as part of a potentially wider digitizing
+               project initiated as part of the course on digitizing cultural heritage, Master in
+               library and information science, digital libraries and information services, at the
+               University of Borås. </note>
          </notesStmt>
          <sourceDesc>
             <msDesc>
@@ -64,19 +64,21 @@
                               <width>14,7</width>
                            </dimensions>
                         </extent>
+                        <!-- check extent for all documents -->
                         <collation>Great care has been given to preserve the order in which
                            documents were bundled together, often in folders with titles. The draft
                            letters written in pencil as well as the printed letter to Maréchal
-                           Pétain were grouped together and are all from the same time period (1941)
-                           when the priest was prisonner of war in Germany during WWII. </collation>
+                           Pétain on the occasion of his birthday were grouped together and are all
+                           from the same time period (1941) when the priest was prisoner of war in
+                           Germany during WWII. </collation>
                         <condition>
                            <p> The selected items in the archive are in relative good condition
                               considering the poor storage condition they have been in. Two letters
-                              come obviously from the same notebook with ruled papper. Each sheet
+                              certainly come from the same notebook with ruled papper. Each sheet
                               was detached from it. The paper sheets are intact but yellowed with
-                              time and slighly stained. One A4 letter has been presrved folded and
-                              is nearly split at the folding crease rendering one written line hard
-                              to read.</p>
+                              time and slighly stained. One A4 letter has been preserved folded and
+                              is nearly split at the folding crease rendering one written line
+                              barely legible.</p>
                         </condition>
                      </supportDesc>
                   </objectDesc>
@@ -86,7 +88,7 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p>This is a sample of a potentially larger digitization project that aims at creating a
+            <p>This is a sample of a potentially larger digitizing project that aims at creating a
                research portal where personal archives become the main point of entry for a more
                human-centred history where individual trajectories intersect with political and
                historical events as well as institutions. The project starting point is the display
@@ -178,14 +180,26 @@
             </listPerson>
             <listOrg>
                <org xml:id="TU">
-                  <orgName><ref target="https://data.bnf.fr/ark:/12148/cb32879084h">Trait
-                        d'Union</ref></orgName>
+                  <orgName xml:lang="fr"><ref target="https://data.bnf.fr/ark:/12148/cb32879084h"
+                        >Trait d'Union</ref></orgName>
                   <!--I think it is interesting to refer to the French National Library data description of the Trait d'Union newspaper (Vichy aligned). However I do not know whether it should be targeted in each ref in the body or whether it is best to have it in the TEI header -->
                </org>
                <org xml:id="PS">
-                  <orgName><ref target="https://data.bnf.fr/ark:/12148/cb34519208g"
-                     >Paris-Soir</ref></orgName>
-                  <!--I think it is interesting to refer to the French national Library description of the Paris-Soir (Vichy aligned). However I do not know whether it should be targeted in each ref in the body or whether it is best to have it in the TEI header -->
+                  <orgName xml:lang="fr"><ref target="https://data.bnf.fr/ark:/12148/cb34519208g"
+                        >Paris-Soir</ref></orgName>
+               </org>
+               <org xml:id="FS">
+                  <orgName xml:lang="de"><ref
+                        target="https://fr.wikipedia.org/w/index.php?title=Frontstalag&amp;oldid=187127738"
+                        >Frontstsalag</ref></orgName>
+               </org>
+               <org xml:id="AK">
+                  <orgName xml:lang="de">Arbeitskommando</orgName>
+               </org>
+               <org xml:id="ST">
+                  <orgName xml:lang="de"><ref
+                        target="https://www.americanairmuseum.com/place/226952">Stalag XIII
+                     B</ref></orgName>
                </org>
             </listOrg>
          </particDesc>
@@ -194,6 +208,8 @@
    <facsimile>
       <surface xml:id="DSCF8370-1">
          <figure>
+            <label>Draft letter dated 30 April 1941 with an excerpt from the newspaper Trait d'Union
+               (Recto)</label>
             <figDesc>Recto of a draft letter, citing an excerpt from the newspaper Trait d'Union,
                adressed to the Kommandatur and seeking release from the war prisoner camp. </figDesc>
             <graphic xml:id="DSCF8370-1_object" url="DSCF8310-1.tiff"/>
@@ -205,6 +221,8 @@
    <facsimile>
       <surface xml:id="DSCF8371">
          <figure>
+            <label>Draft letter dated 30 April 1941 with an excerpt from the newspaper Trait d'Union
+               (Verso)</label>
             <figDesc>Verso of a draft letter, citing an excerpt from the newspaper Trait d'Union,
                adressed to the Kommandatur and seeking release from the war prisoner camp. </figDesc>
             <graphic xml:id="DSCF8371_object" url="DSCF8371.tiff"/>
@@ -216,6 +234,8 @@
    <facsimile>
       <surface xml:id="DSCF8366-1">
          <figure>
+            <label>Draft letter dated 30 April 1941 referring to an excerpt of Paris-Soir
+               (Recto)</label>
             <figDesc> Recto of a draft letter,dated 30 April 1941, citing an excerpt from the
                newspaper Paris-Soir, addressed to the Kommandatur and seeking release from the war
                prisoner camp. </figDesc>
@@ -228,6 +248,8 @@
    <facsimile>
       <surface xml:id="DSCF8367">
          <figure>
+            <label>Draft letter dated 30 April 1941 referring to an excerpt of Paris-Soir
+               (Verso)</label>
             <figDesc>Verso of a draft letter, dated 30 April 1941, citing an excerpt from the
                newspaper Paris-Soir, addressed to the Kommandatur and seeking release from the war
                prisoner camp. </figDesc>
@@ -240,8 +262,10 @@
    <facsimile>
       <surface xml:id="DSCF8383">
          <figure>
-            <figDesc> Recto of a draft letter, dated 30 April 1941, citing in the letter body an
-               excerpt of the newspaper Trait d'Union, addressed to the Kommandatur and seeking
+            <label>Draft letter dated 30 April 1941 referring to an excerpt of Trait d'Union in the
+               body of the letter (Recto)</label>
+            <figDesc> Recto of a draft letter, dated 30 April 1941, citing in the body of the letter
+               an excerpt from the newspaper Trait d'Union, addressed to the Kommandatur and seeking
                release from the war prisoner camp.</figDesc>
             <graphic xml:id="DSCF8383_object" url="DSCF8383.tiff"/>
             <graphic xml:id="DSCF8383crop_full" url="DSCF8383crop.tiff"/>
@@ -252,8 +276,10 @@
    <facsimile>
       <surface xml:id="DSCF8384">
          <figure>
-            <figDesc> Recto of a draft letter, dated 30 April 1941, citing in the letter body an
-               excerpt of the newspaper Trait d'Union, addressed to the Kommandatur and seeking
+            <label> Draft letter dated 30 April 1941 referring to an excerpt of Trait d'Union in the
+               body of the letter (Verso)</label>
+            <figDesc> Verso of a draft letter, dated 30 April 1941, citing in the body of the letter
+               an excerpt of the newspaper Trait d'Union, addressed to the Kommandatur and seeking
                release from the war prisoner camp.</figDesc>
             <graphic xml:id="DSCF8384_object" url="DSCF8384.tiff"/>
             <graphic xml:id="DSCF8384crop_full" url="DSCF8384crop.tiff"/>
@@ -264,8 +290,9 @@
    <facsimile>
       <surface xml:id="DSCF8374">
          <figure>
-            <figDesc> Recto of a draft letter, dated 20 March 1941, where the priest reports on his
-               different assignments and locations since he was made prisoner of war on 17 June
+            <label>Draft letter dated March 20 1941 (recto)</label>
+            <figDesc> Recto of a draft letter, dated 20 March 1941, in which the priest reports on
+               his different assignments and locations since he was made prisoner of war on 17 June
                1940. The letter to the Kommandatur aims to request payment for his work as
                nurse.</figDesc>
             <graphic xml:id="DSCF8374_object" url="DSCF8374.tiff"/>
@@ -277,8 +304,9 @@
    <facsimile>
       <surface xml:id="DSCF8375">
          <figure>
-            <figDesc> Verso of a draft letter, dated 20 March 1941, where the priest reports on his
-               different assignments and locations since he was made prisoner of war on 17 June
+            <label>Draft letter dated March 20 1941 (verso)</label>
+            <figDesc> Verso of a draft letter, dated 20 March 1941, in which the priest reports on
+               his different assignments and locations since he was made prisoner of war on 17 June
                1940. The letter to the Kommandatur aims to request payment for his work as
                nurse.</figDesc>
             <graphic xml:id="DSCF8375_object" url="DSCF8375.tiff"/>
@@ -290,6 +318,7 @@
    <facsimile>
       <surface xml:id="DSCF8350">
          <figure>
+            <label> Printed letter to wish Maréchal Pétain a happy birthday (recto)</label>
             <figDesc> Recto of a printed letter, addressed to Maréchal Pétain on his birthday, from
                the war prisoners of the Oflag XIII A. </figDesc>
             <graphic xml:id="DSCF8350_object" url="DSCF8350.tiff"/>
@@ -301,6 +330,7 @@
    <facsimile>
       <surface xml:id="DSCF8351">
          <figure>
+            <label>Printed letter to wish Maréchal Pétain a happy birthday (verso)</label>
             <figDesc> Verso of a printed letter, addressed to Maréchal pétain on his birthday, from
                the war prisoners of the Oflag XIII A. </figDesc>
             <graphic xml:id="DSCF8351_object" url="DSCF8351.tiff"/>
@@ -333,22 +363,40 @@
                   Militaires</w><lb/> Allemandes, je certifie n’avoir encore<lb/> perçu <emph
                   rend="underlined">aucune solde d’aucune sorte</emph> depuis<lb/> que je suis
                prisonnier, alors que des<lb/> Sanitaires, dans le même cas que le mien,<lb/>
-               perçoivent <num value="1">un</num><measure type="currency">mark</measure>par
+               perçoivent <num value="1">un</num><measure type="currency"> mark</measure> par
                jour.</p>
             <p>Voici à titre documentaire, mes dif<lb/>férentes affectations, depuis le <date
                   when="1940-06-17">17 juin 1940</date><lb/> ,date à laquelle j’ai été fait
                prison-<lb/>nier à <placeName>Vitteaux (Côte-d’Or)</placeName>: </p>
             <p>Affecté à l’<w>Hôpital</w> d'<placeName>
                   <settlement>Avallon</settlement>
-               <region>(Yonne)</region></placeName>, comme infirmier à la <w>salle d’opérations</w>, du<lb/>
-               <date when="--06-17">17 juin</date> au<date when="--07-19">19 juillet</date> <date rend="bold">1940</date></p>
-               <p> Interné au camp de <placeName><settlement>Cravant <region>(Yonne)</region></settlement></placeName>, du 19
-               juillet au 22 octobre [gras]1940 [gras] Interné au camp de Saint-Florentin (Yonne),
-               Frontstalag 150, du 22 octobre au 29 octobre [gras]1940 [gras] Dirigé sur l’Allemagn
-               le 29 octobre : A Grafenwöhr, du 1er au 7 novembre [gras]1940 [gras] A Eger (A.K
-               34-31), du 7 au 27 novembre A Weiden (Stalag XIII B), du 27 novembre au 11 janvier
-               194[gras]1 A Nüruberg (Oflag XIII A, Unterlager A), à partir du 11 Janvier 1941
-               [delete], [gras]jusqu’au 23 juillet 1941.[gras] </p>
+                  <region>(Yonne)</region></placeName>, comme infirmier à la <w>salle
+                  d’opérations</w>, du<lb/>
+               <date when="--06-17">17 juin</date> au<date when="--07-19">19 juillet</date>
+               <date rend="bold">1940</date></p>
+            <p> Interné au camp de
+                     <placeName><settlement>Cravant</settlement><region>(Yonne)</region></placeName>,
+               du <date when="--07-19">19 juillet</date> au <date when="--10-22">22
+                  octobre</date><date rend="bold">1940</date>
+            </p>
+            <p>Interné au camp de
+                     <placeName><settlement>Saint-Florentin</settlement><region>(Yonne)</region></placeName>,
+                  <orgName ref="#FS"><w>Frontstalag</w>
+                  <num type="cardinal">150</num></orgName>, du <date when="--10-22">22
+                  octobre</date> au <date when="--10-29">29 octobre</date>
+               <date rend="bold">1940</date></p>
+            <p>Dirigé sur l’<placeName><country>Allemagne</country></placeName>le <date
+                  when="--10-29">29 octobre</date> :</p>
+            <p>A <placeName><settlement xml:lang="de">Grafenwöhr</settlement></placeName>, du 1er au
+               7 novembre [gras]1940 [gras]</p>
+            <p>A <placeName><settlement>Eger</settlement></placeName>
+               <orgName type="acronym" ref="#AK">(A.K. 34-31)</orgName>, du <date>7</date> au <date
+                  when="--11-27">27 novembre</date></p>
+            <p>A <placeName><settlement>Weiden</settlement></placeName>
+               <orgName ref="#ST">(Stalag XIII B)</orgName>, du <date when="--11-27">27 novembre</date> au <date when="1941-01-11">11 janvier
+                  194 <emph style="bold">1</emph></date></p>
+            <p>A Nüruberg (Oflag XIII A, Unterlager A), à partir du 11 Janvier 1941 [delete],
+               [gras]jusqu’au 23 juillet 1941.[gras] </p>
          </div>
          <div type="prose" hand="#JJ">
             <pb facs="#DSCF8370"/>
