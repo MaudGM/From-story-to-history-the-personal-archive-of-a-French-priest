@@ -201,10 +201,43 @@
                         target="https://www.americanairmuseum.com/place/226952">Stalag XIII
                      B</ref></orgName>
                </org>
+               <org xml:id="OF">
+                  <orgName xml:lang="de"><ref
+                        target="https://en.wikipedia.org/w/index.php?title=Oflag_XIII-A&amp;oldid=1079979451"
+                     /></orgName>
+               </org>
             </listOrg>
          </particDesc>
       </profileDesc>
    </teiHeader>
+   <facsimile>
+      <surface xml:id="DSCF8374">
+         <figure>
+            <label>Draft letter dated March 20 1941 (recto)</label>
+            <figDesc> Recto of a draft letter, dated 20 March 1941, in which the priest reports on
+               his different assignments and locations since he was made prisoner of war on 17 June
+               1940. The letter to the Kommandatur aims to request payment for his work as
+               nurse.</figDesc>
+            <graphic xml:id="DSCF8374_object" url="DSCF8374.tiff"/>
+            <graphic xml:id="DSCF8374crop_full" url="DSCF8374crop.tiff"/>
+            <graphic xml:id="DSCF8374crop_thumb" url="DSCF8374crop.jpeg"/>
+         </figure>
+      </surface>
+   </facsimile>
+   <facsimile>
+      <surface xml:id="DSCF8375">
+         <figure>
+            <label>Draft letter dated March 20 1941 (verso)</label>
+            <figDesc> Verso of a draft letter, dated 20 March 1941, in which the priest reports on
+               his different assignments and locations since he was made prisoner of war on 17 June
+               1940. The letter to the Kommandatur aims to request payment for his work as
+               nurse.</figDesc>
+            <graphic xml:id="DSCF8375_object" url="DSCF8375.tiff"/>
+            <graphic xml:id="DSCF8375crop_full" url="DSCF8375crop.tiff"/>
+            <graphic xml:id="DSCF8375crop_thumb" url="DSCF8375crop.jpeg"/>
+         </figure>
+      </surface>
+   </facsimile>
    <facsimile>
       <surface xml:id="DSCF8370-1">
          <figure>
@@ -288,39 +321,11 @@
       </surface>
    </facsimile>
    <facsimile>
-      <surface xml:id="DSCF8374">
-         <figure>
-            <label>Draft letter dated March 20 1941 (recto)</label>
-            <figDesc> Recto of a draft letter, dated 20 March 1941, in which the priest reports on
-               his different assignments and locations since he was made prisoner of war on 17 June
-               1940. The letter to the Kommandatur aims to request payment for his work as
-               nurse.</figDesc>
-            <graphic xml:id="DSCF8374_object" url="DSCF8374.tiff"/>
-            <graphic xml:id="DSCF8374crop_full" url="DSCF8374crop.tiff"/>
-            <graphic xml:id="DSCF8374crop_thumb" url="DSCF8374crop.jpeg"/>
-         </figure>
-      </surface>
-   </facsimile>
-   <facsimile>
-      <surface xml:id="DSCF8375">
-         <figure>
-            <label>Draft letter dated March 20 1941 (verso)</label>
-            <figDesc> Verso of a draft letter, dated 20 March 1941, in which the priest reports on
-               his different assignments and locations since he was made prisoner of war on 17 June
-               1940. The letter to the Kommandatur aims to request payment for his work as
-               nurse.</figDesc>
-            <graphic xml:id="DSCF8375_object" url="DSCF8375.tiff"/>
-            <graphic xml:id="DSCF8375crop_full" url="DSCF8375crop.tiff"/>
-            <graphic xml:id="DSCF8375crop_thumb" url="DSCF8375crop.jpeg"/>
-         </figure>
-      </surface>
-   </facsimile>
-   <facsimile>
       <surface xml:id="DSCF8350">
          <figure>
             <label> Printed letter to wish Maréchal Pétain a happy birthday (recto)</label>
             <figDesc> Recto of a printed letter, addressed to Maréchal Pétain on his birthday, from
-               the war prisoners of the Oflag XIII A. </figDesc>
+               the war prisoners of the Oflag XIII A. Unsigned copy. </figDesc>
             <graphic xml:id="DSCF8350_object" url="DSCF8350.tiff"/>
             <graphic xml:id="DSCF8350crop_full" url="DSCF8350crop.tiff"/>
             <graphic xml:id="DSCF8350crop_thumb" url="DSCF8350crop.jpeg"/>
@@ -332,7 +337,7 @@
          <figure>
             <label>Printed letter to wish Maréchal Pétain a happy birthday (verso)</label>
             <figDesc> Verso of a printed letter, addressed to Maréchal pétain on his birthday, from
-               the war prisoners of the Oflag XIII A. </figDesc>
+               the war prisoners of the Oflag XIII A. Unsigned copy.</figDesc>
             <graphic xml:id="DSCF8351_object" url="DSCF8351.tiff"/>
             <graphic xml:id="DSCF8351crop_full" url="DSCF8351crop.tiff"/>
             <graphic xml:id="DSCF8351crop_thumb" url="DSCF8351crop.jpeg"/>
@@ -343,6 +348,9 @@
       <body>
          <div type="prose" hand="#JJ">
             <pb facs="#DSCF8374"/>
+            <!-- In this letter, the year seems to have retrospectively been added to dates/time periods. The year is written in pencil but in bold.
+               As confirmation that the year dates were added after the fact is that although the letter is dated 1941-03-20, a date (rendered in bold) indicates 'until 1941-07-27.'
+            I have rendered this editorial change with the add element-->
             <opener>
                <date when="1941-03-20" rend="right">Le 20 mars 1941</date>
                <persName ref="#JJ" rend="left"> Le<w>caporal</w>
@@ -356,47 +364,53 @@
                      xml:lang="de">Oflag <lb/>
                      <num type="ordinal" value="13">XIII</num> A. Unterlager A.</placeName></salute>
             </opener>
-            <p><add place="margin">Objet: Perception de la <w>solde</w> d'infirmier.</add></p>
+            <p><add place="margin">Objet: Perception de la <w>solde</w> d'<w>infirmier</w>.</add></p>
             <p rend="indent">J’ai l’honneur de solliciter de<lb/> votre bienveillance de vouloir
                bien payer<lb/> ma solde d’infirmier.</p>
             <p rend="indent">En effet, bien que reconnu comme<lb/> Sanitaire par les <w>Autorités
                   Militaires</w><lb/> Allemandes, je certifie n’avoir encore<lb/> perçu <emph
                   rend="underlined">aucune solde d’aucune sorte</emph> depuis<lb/> que je suis
-               prisonnier, alors que des<lb/> Sanitaires, dans le même cas que le mien,<lb/>
-               perçoivent <num value="1">un</num><measure type="currency"> mark</measure> par
+               prisonnier, alors que des<lb/> <w>Sanitaires</w>, dans le même cas que le mien,<lb/>
+               perçoivent <num value="1">un</num><measure type="currency"><w>mark</w></measure> par
                jour.</p>
-            <p>Voici à titre documentaire, mes dif<lb/>férentes affectations, depuis le <date
+            <p>Voici à titre documentaire, mes dif<lb/>férentes <w>affectations</w>, depuis le <date
                   when="1940-06-17">17 juin 1940</date><lb/> ,date à laquelle j’ai été fait
                prison-<lb/>nier à <placeName>Vitteaux (Côte-d’Or)</placeName>: </p>
             <p>Affecté à l’<w>Hôpital</w> d'<placeName>
                   <settlement>Avallon</settlement>
-                  <region>(Yonne)</region></placeName>, comme infirmier à la <w>salle
+               <region>(Yonne)</region></placeName>, comme <w>infirmier</w> à la <w>salle
                   d’opérations</w>, du<lb/>
-               <date when="--06-17">17 juin</date> au<date when="--07-19">19 juillet</date>
-               <date rend="bold">1940</date></p>
-            <p> Interné au camp de
+               <date when="--06-17">17 juin</date> au<date when="--07-19">19 juillet</date><add
+                  rend="bold"><date>1940</date></add>
+            </p>
+            <p> <w>Interné</w> au camp de
                      <placeName><settlement>Cravant</settlement><region>(Yonne)</region></placeName>,
                du <date when="--07-19">19 juillet</date> au <date when="--10-22">22
-                  octobre</date><date rend="bold">1940</date>
+                  octobre</date><add rend="bold"><date>1940</date></add>
             </p>
-            <p>Interné au camp de
+            <p> <w>Interné</w> au camp de
                      <placeName><settlement>Saint-Florentin</settlement><region>(Yonne)</region></placeName>,
                   <orgName ref="#FS"><w>Frontstalag</w>
                   <num type="cardinal">150</num></orgName>, du <date when="--10-22">22
-                  octobre</date> au <date when="--10-29">29 octobre</date>
-               <date rend="bold">1940</date></p>
+                  octobre</date> au <date when="--10-29">29 octobre</date><add rend="bold"><date
+                     when="1940">1940</date></add>
+            </p>
             <p>Dirigé sur l’<placeName><country>Allemagne</country></placeName>le <date
                   when="--10-29">29 octobre</date> :</p>
-            <p>A <placeName><settlement xml:lang="de">Grafenwöhr</settlement></placeName>, du 1er au
-               7 novembre [gras]1940 [gras]</p>
+            <p>A <placeName><settlement xml:lang="de">Grafenwöhr</settlement></placeName>, du <date
+                  from="--11-01" to="--11-07"><num type="ordinal"><abbr>1er</abbr></num> au 7
+                  novembre</date><add rend="bold"><date when="1940">1940</date></add></p>
             <p>A <placeName><settlement>Eger</settlement></placeName>
-               <orgName type="acronym" ref="#AK">(A.K. 34-31)</orgName>, du <date>7</date> au <date
+               <orgName type="acronym" ref="#AK"><w>(A.K. 34-31)</w></orgName>, du <date>7</date> au <date
                   when="--11-27">27 novembre</date></p>
             <p>A <placeName><settlement>Weiden</settlement></placeName>
-               <orgName ref="#ST">(Stalag XIII B)</orgName>, du <date when="--11-27">27 novembre</date> au <date when="1941-01-11">11 janvier
-                  194 <emph style="bold">1</emph></date></p>
-            <p>A Nüruberg (Oflag XIII A, Unterlager A), à partir du 11 Janvier 1941 [delete],
-               [gras]jusqu’au 23 juillet 1941.[gras] </p>
+               <orgName ref="#ST"><w>(Stalag XIII B)</w></orgName>, du <date when="--11-27">27
+                  novembre</date> au <date when="1941-01-11">11 janvier 194 <emph style="bold"
+                     >1</emph></date></p>
+            <p>A <placeName><settlement>Nüruberg</settlement></placeName>
+               <orgName ref="#OF"><w>(Oflag XIII A, Unterlager A)</w></orgName>, à partir du <date
+                  when="1941-01-11">11 Janvier <del rend="overstrike">1941</del></date>. <add
+                  rend="bold"> jusqu'au <date when="1941-07-23">23 juillet 1941.</date></add></p>
          </div>
          <div type="prose" hand="#JJ">
             <pb facs="#DSCF8370"/>
@@ -548,6 +562,43 @@
                   considération ma si-<lb/>tuation présente.</salute>
                <signed corresp="#personJJ" rend="right">jJouzel</signed>
             </closer>
+         </div>
+         <div type="prose" style="printed">
+            <pb facs="#DSCF8350"/>
+            <opener>
+               <salute>Au MARECHAL PETAIN <lb/> Chef de I’Etat Français</salute>
+            </opener>
+            <p rend="allcaps">LES PRISONNIERS DE GUERRE DU M.-STAMM-<lb/> LAGER XIII A ADRESSENT AU
+               MARECHAL PE-<lb/> TAIN LEURS VOEUX TRES RESPECTUEUX A<lb/> L'OCCASION DE SON
+               ANNIVERSAIRE. </p>
+            <p rend="allcaps">ILS LUI EXPRIMENT LEUR RECONNAISSANCE<lb/> EMUE POUR LA GENEREUSE
+               ATTENTION QU’IL<lb/> LEUR TEMOIGNE EN TOUTE CIRCONSTANCE<lb/> ET POUR TOUS SES
+               EFFORTS EN VUE D’ADOU-<lb/> CIR, MORALEMENT ET MATERIELLEMENT, LEUR<lb/>
+               CAPTIVITE. </p>
+            <p>GARDANT UNE CONFIANCE INEBRANLABLE<lb/> DANS LES DESTINEES DE LA FRANCE ETER-<lb/>
+               NELLE, ILS L’ASSURENT DE LEUR FILIAL AT-<lb/> TACHEMENT. </p>
+            <closer>
+               <signed rend="bold"><w>M.-STAMMLAGER XIIIA</w>M.-STAMMLAGER XIIIA<lb/><w>Arbeits-Kommando</w> <abbr>No.
+                     .............</abbr></signed>
+               <signed><table cols="4" rows="20">
+                  <row role="label">
+                     <cell>SIGNATURES</cell>
+                  </row>
+                  <row role="label">
+                     <cell>PRENOMS</cell>
+                  </row>
+                  <row role="label">
+                     <cell>PROFESSIONS</cell>
+                  </row>
+                  <row role="label">
+                     <cell>VILLES</cell>
+                  </row>
+               </table></signed>
+            </closer>
+           
+               
+          
+         
          </div>
       </body>
    </text>
