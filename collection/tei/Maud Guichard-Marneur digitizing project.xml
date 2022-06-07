@@ -59,12 +59,20 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc material="paper">
-                        <extent> two pages <dimensions scope="all" type="leaf" unit="cm">
+                        <extent> Three hand-written letters <dimensions scope="all" type="leaf"
+                              unit="cm">
                               <height>21</height>
                               <width>14,7</width>
-                           </dimensions>
-                        </extent>
-                        <!-- check extent for all documents -->
+                           </dimensions> one hand written letter <dimensions scope="all" type="leaf"
+                              unit="cm">
+                              <height>29,7</height>
+                              <width>21</width>
+                           </dimensions>and one printed letter <dimensions scope="all" type="leaf"
+                              unit="cm">
+                              <height>29,7</height>
+                              <width>21</width>
+                           </dimensions></extent>
+
                         <collation>Great care has been given to preserve the order in which
                            documents were bundled together, often in folders with titles. The draft
                            letters written in pencil as well as the printed letter to Maréchal
@@ -125,9 +133,10 @@
                had collected with the aim of indexing the material, but lack of time stopped me in
                my endeavour. In 2022, I finally got an opportunity to get back to this archive that
                had been stored in France. A pre-selection was brought to Sweden where I started to
-               read and research the documents. For the digitization project I sampled a few,
-               considered most interesting and/or striking documents from three different periods of
-               the priest's life: the 1930s, WWII and post WWII.</p>
+               read and research the documents. For the digitization project I sampled and digitised
+               a few, considered most interesting and/or striking documents from three different
+               periods of the priest's life: the 1930s, WWII and post WWII. However, for online
+               presentation I focused on marking up selected WWII letters that I present here</p>
          </samplingDecl>
          <editorialDecl>
             <normalization>
@@ -364,31 +373,34 @@
                      xml:lang="de">Oflag <lb/>
                      <num type="ordinal" value="13">XIII</num> A. Unterlager A.</placeName></salute>
             </opener>
-            <p><add place="margin">Objet: Perception de la <w>solde</w> d'<w>infirmier</w>.</add></p>
+            <p><add place="margin">Objet: Perception de la <w>solde</w>
+               d'<w>infirmier</w>.</add></p>
             <p rend="indent">J’ai l’honneur de solliciter de<lb/> votre bienveillance de vouloir
                bien payer<lb/> ma solde d’infirmier.</p>
             <p rend="indent">En effet, bien que reconnu comme<lb/> Sanitaire par les <w>Autorités
                   Militaires</w><lb/> Allemandes, je certifie n’avoir encore<lb/> perçu <emph
                   rend="underlined">aucune solde d’aucune sorte</emph> depuis<lb/> que je suis
-               prisonnier, alors que des<lb/> <w>Sanitaires</w>, dans le même cas que le mien,<lb/>
-               perçoivent <num value="1">un</num><measure type="currency"><w>mark</w></measure> par
-               jour.</p>
+               prisonnier, alors que des<lb/>
+               <w>Sanitaires</w>, dans le même cas que le mien,<lb/> perçoivent <num value="1"
+                  >un</num><measure type="currency"><w>mark</w></measure> par jour.</p>
             <p>Voici à titre documentaire, mes dif<lb/>férentes <w>affectations</w>, depuis le <date
                   when="1940-06-17">17 juin 1940</date><lb/> ,date à laquelle j’ai été fait
                prison-<lb/>nier à <placeName>Vitteaux (Côte-d’Or)</placeName>: </p>
             <p>Affecté à l’<w>Hôpital</w> d'<placeName>
                   <settlement>Avallon</settlement>
-               <region>(Yonne)</region></placeName>, comme <w>infirmier</w> à la <w>salle
+                  <region>(Yonne)</region></placeName>, comme <w>infirmier</w> à la <w>salle
                   d’opérations</w>, du<lb/>
                <date when="--06-17">17 juin</date> au<date when="--07-19">19 juillet</date><add
                   rend="bold"><date>1940</date></add>
             </p>
-            <p> <w>Interné</w> au camp de
+            <p>
+               <w>Interné</w> au camp de
                      <placeName><settlement>Cravant</settlement><region>(Yonne)</region></placeName>,
                du <date when="--07-19">19 juillet</date> au <date when="--10-22">22
                   octobre</date><add rend="bold"><date>1940</date></add>
             </p>
-            <p> <w>Interné</w> au camp de
+            <p>
+               <w>Interné</w> au camp de
                      <placeName><settlement>Saint-Florentin</settlement><region>(Yonne)</region></placeName>,
                   <orgName ref="#FS"><w>Frontstalag</w>
                   <num type="cardinal">150</num></orgName>, du <date when="--10-22">22
@@ -401,8 +413,8 @@
                   from="--11-01" to="--11-07"><num type="ordinal"><abbr>1er</abbr></num> au 7
                   novembre</date><add rend="bold"><date when="1940">1940</date></add></p>
             <p>A <placeName><settlement>Eger</settlement></placeName>
-               <orgName type="acronym" ref="#AK"><w>(A.K. 34-31)</w></orgName>, du <date>7</date> au <date
-                  when="--11-27">27 novembre</date></p>
+               <orgName type="acronym" ref="#AK"><w>(A.K. 34-31)</w></orgName>, du <date>7</date> au
+                  <date when="--11-27">27 novembre</date></p>
             <p>A <placeName><settlement>Weiden</settlement></placeName>
                <orgName ref="#ST"><w>(Stalag XIII B)</w></orgName>, du <date when="--11-27">27
                   novembre</date> au <date when="1941-01-11">11 janvier 194 <emph style="bold"
@@ -573,32 +585,32 @@
                ANNIVERSAIRE. </p>
             <p rend="allcaps">ILS LUI EXPRIMENT LEUR RECONNAISSANCE<lb/> EMUE POUR LA GENEREUSE
                ATTENTION QU’IL<lb/> LEUR TEMOIGNE EN TOUTE CIRCONSTANCE<lb/> ET POUR TOUS SES
-               EFFORTS EN VUE D’ADOU-<lb/> CIR, MORALEMENT ET MATERIELLEMENT, LEUR<lb/>
-               CAPTIVITE. </p>
+               EFFORTS EN VUE D’ADOU-<lb/> CIR, MORALEMENT ET MATERIELLEMENT, LEUR<lb/> CAPTIVITE. </p>
             <p>GARDANT UNE CONFIANCE INEBRANLABLE<lb/> DANS LES DESTINEES DE LA FRANCE ETER-<lb/>
                NELLE, ILS L’ASSURENT DE LEUR FILIAL AT-<lb/> TACHEMENT. </p>
             <closer>
-               <signed rend="bold"><w>M.-STAMMLAGER XIIIA</w>M.-STAMMLAGER XIIIA<lb/><w>Arbeits-Kommando</w> <abbr>No.
-                     .............</abbr></signed>
+               <signed rend="bold"><w>M.-STAMMLAGER XIIIA</w>M.-STAMMLAGER
+                     XIIIA<lb/><w>Arbeits-Kommando</w>
+                  <abbr>No. .............</abbr></signed>
                <signed><table cols="4" rows="20">
-                  <row role="label">
-                     <cell>SIGNATURES</cell>
-                  </row>
-                  <row role="label">
-                     <cell>PRENOMS</cell>
-                  </row>
-                  <row role="label">
-                     <cell>PROFESSIONS</cell>
-                  </row>
-                  <row role="label">
-                     <cell>VILLES</cell>
-                  </row>
-               </table></signed>
+                     <row role="label">
+                        <cell>SIGNATURES</cell>
+                     </row>
+                     <row role="label">
+                        <cell>PRENOMS</cell>
+                     </row>
+                     <row role="label">
+                        <cell>PROFESSIONS</cell>
+                     </row>
+                     <row role="label">
+                        <cell>VILLES</cell>
+                     </row>
+                  </table></signed>
             </closer>
-           
-               
-          
-         
+
+
+
+
          </div>
       </body>
    </text>
