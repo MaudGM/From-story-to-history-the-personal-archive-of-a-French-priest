@@ -1,4 +1,4 @@
-# A French priest personal archive - When individual trajectories meet history: An electronic transcription
+# HIStory. When individual trajectories meet history -  A French priest personal archive: An electronic transcription
 
 This is a sample of a potentially larger digitization project that aims at creating a
 research portal where personal archives become the main point of entry for a more
