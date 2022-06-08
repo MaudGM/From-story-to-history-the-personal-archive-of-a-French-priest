@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>A French priest personal archive - When individual trajectories meet history: An
+            <title>HIStory. When individual trajectories meet history -  A French priest personal archive: An
                electronic transcription</title>
             <!-- In the final project, I would like to anonymise the author of the letters with consideration to ethics. With Mats I discussed the possibility to slightly blurr the name in the facsimile. I would like to have a diplomatic witness, but when the name comes up, I would like to show that I obliterate the info. How could I do that? -->
             <principal>
@@ -184,14 +184,13 @@
                <person xml:id="personScapini">
                   <name><ref target="https://francearchives.fr/fr/authorityrecord/FRAN_NP_051226"
                         >Scapini</ref></name>
-                  <!--I think it is interesting to refer to the French national archive description of the Scapini delegation. However I do not know whether it should be targeted in each ref in the body or whether it is best to have it in the TEI header -->
                </person>
             </listPerson>
             <listOrg>
                <org xml:id="TU">
                   <orgName xml:lang="fr"><ref target="https://data.bnf.fr/ark:/12148/cb32879084h"
                         >Trait d'Union</ref></orgName>
-                  <!--I think it is interesting to refer to the French National Library data description of the Trait d'Union newspaper (Vichy aligned). However I do not know whether it should be targeted in each ref in the body or whether it is best to have it in the TEI header -->
+             
                </org>
                <org xml:id="PS">
                   <orgName xml:lang="fr"><ref target="https://data.bnf.fr/ark:/12148/cb34519208g"
