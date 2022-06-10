@@ -167,10 +167,7 @@
                         <div class="row">
                                 <div class="col-sm">
                                     <article id="details">
-                                      <p>
-                                        <strong>Author:</strong><br/>
-                                        <xsl:apply-templates select="//tei:TEI//tei:author"/>
-                                      </p>
+                                    
                                       <p>
                                         <strong>Transcription by:</strong><br/>
                                         <xsl:apply-templates select="//tei:TEI//tei:principal"/>
