@@ -470,7 +470,7 @@
                <signed corresp="#personJJ" rend="right">J jouzel</signed>
             </closer>
          </div>
-         <div style="prose" hand="#JJ">
+         <div type="prose" hand="#JJ">
             <pb facs="#DSCF8366-1"/>
             <opener>
                <persName ref="#JJ" rend="left"><w>Caporal</w>
@@ -523,7 +523,7 @@
                   sou-<lb/>mis au travail manuel que s’ils en expriment le<lb/> désir.</q>
             </postscript>
          </div>
-         <div style="prose" hand="#JJ">
+         <div type="prose" hand="#JJ">
             <pb facs="#DSCF8383"/>
             <opener>
                <date when="1941-04-30" rend="right">Le 30 avril 1941</date><lb/>
