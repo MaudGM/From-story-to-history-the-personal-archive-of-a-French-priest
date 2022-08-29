@@ -45,7 +45,7 @@
                                     <h3>Image</h3>
                                     <xsl:for-each select="//tei:surface">
                                         
-                                        <img width="400">
+                                        <img width="200">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="concat('assets/img/documents/',tei:figure/tei:graphic[3]/@url)"/>
                                             </xsl:attribute>

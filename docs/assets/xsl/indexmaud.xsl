@@ -40,120 +40,24 @@
                     <!-- define a row layout with bootstrap's css classes (two columns) -->
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
-                            <div class="col-sm">
-                               <article id="thumbnail">
-                                <img>
-                                    <xsl:attribute name="src">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='DSCF8374crop_thumb']/@url"/>
-                                    </xsl:attribute>
-                                    <xsl:attribute name="title">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='DSCF8374']//tei:label"/>
-                                    </xsl:attribute>
-                                    <xsl:attribute name="alt">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='DSCF8374']//tei:figDesc"/>
-                                    </xsl:attribute>
-                                </img>
-                                   <img>
-                                       <xsl:attribute name="src">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='DSCF8375crop_thumb']/@url"/>
-                                       </xsl:attribute>
-                                       <xsl:attribute name="title">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='DSCF8375']//tei:label"/>
-                                       </xsl:attribute>
-                                       <xsl:attribute name="alt">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='DSCF8375']//tei:figDesc"/>
-                                       </xsl:attribute>
-                                   </img>
-                                   <img>
-                                       <xsl:attribute name="src">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='DSCF8370-1crop_thumb']/@url"/>
-                                       </xsl:attribute>
-                                       <xsl:attribute name="title">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='DSCF8370-1']//tei:label"/>
-                                       </xsl:attribute>
-                                       <xsl:attribute name="alt">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='DSCF8370-1']//tei:figDesc"/>
-                                       </xsl:attribute>
-                                   </img>
-                                   <img>
-                                       <xsl:attribute name="src">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='DSCF8371crop_thumb']/@url"/>
-                                       </xsl:attribute>
-                                       <xsl:attribute name="title">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='DSCF8371']//tei:label"/>
-                                       </xsl:attribute>
-                                       <xsl:attribute name="alt">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='DSCF8371']//tei:figDesc"/>
-                                       </xsl:attribute>
-                                   </img>
-                                   <img>
-                                       <xsl:attribute name="src">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='DSCF8366-1crop_thumb']/@url"/>
-                                       </xsl:attribute>
-                                       <xsl:attribute name="title">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='DSCF8366-1']//tei:label"/>
-                                       </xsl:attribute>
-                                       <xsl:attribute name="alt">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='DSCF8366-1']//tei:figDesc"/>
-                                       </xsl:attribute>
-                                   </img>
-                                   <img>
-                                       <xsl:attribute name="src">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='DSCF8367crop_thumb']/@url"/>
-                                       </xsl:attribute>
-                                       <xsl:attribute name="title">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='DSCF8367']//tei:label"/>
-                                       </xsl:attribute>
-                                       <xsl:attribute name="alt">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='DSCF8367']//tei:figDesc"/>
-                                       </xsl:attribute>
-                                   </img>
-                                   <img>
-                                       <xsl:attribute name="src">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='DSCF8383crop_thumb']/@url"/>
-                                       </xsl:attribute>
-                                       <xsl:attribute name="title">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='DSCF8383']//tei:label"/>
-                                       </xsl:attribute>
-                                       <xsl:attribute name="alt">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='DSCF8383']//tei:figDesc"/>
-                                       </xsl:attribute>
-                                   </img>
-                                   <img>
-                                       <xsl:attribute name="src">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='DSCF8384crop_thumb']/@url"/>
-                                       </xsl:attribute>
-                                       <xsl:attribute name="title">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='DSCF8384']//tei:label"/>
-                                       </xsl:attribute>
-                                       <xsl:attribute name="alt">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='DSCF8384']//tei:figDesc"/>
-                                       </xsl:attribute>
-                                   </img>
-                                   <img>
-                                       <xsl:attribute name="src">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='DSCF8350crop_thumb']/@url"/>
-                                       </xsl:attribute>
-                                       <xsl:attribute name="title">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='DSCF8350']//tei:label"/>
-                                       </xsl:attribute>
-                                       <xsl:attribute name="alt">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='DSCF8350']//tei:figDesc"/>
-                                       </xsl:attribute>
-                                   </img>
-                                   <img>
-                                       <xsl:attribute name="src">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='DSCF8351crop_thumb']/@url"/>
-                                       </xsl:attribute>
-                                       <xsl:attribute name="title">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='DSCF8351']//tei:label"/>
-                                       </xsl:attribute>
-                                       <xsl:attribute name="alt">
-                                           <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='DSCF8351']//tei:figDesc"/>
-                                       </xsl:attribute>
-                                   </img>
-                               </article>
-                            </div>
+                            <article id="scan">
+                                <h3>Image</h3>
+                                <xsl:for-each select="//tei:surface">
+                                    
+                                    <img width="100">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="concat('assets/img/documents/',tei:figure/tei:graphic[3]/@url)"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of select="tei:figure/tei:label"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of select="tei:figure/tei:figDesc"/>
+                                        </xsl:attribute>
+                                        
+                                    </img>
+                                </xsl:for-each>
+                            </article>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
